@@ -1,0 +1,54 @@
+
+// Fonts 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=PT+Serif:wght@400;700&family=Raleway:wght@400;500;600;700;800;900&family=Rufina:wght@400;700&display=swap');
+
+// Variables
+$head-text: 'Rufina', serif;
+$body-text: 'Open Sans', sans-serif;
+$darkpurple: #3D0240;
+$grey: #faf7f5;
+$offwhite: #fffeff;
+$pink: #ff718e;
+$darkgrey: #fdfdfd;
+
+
+@import "reset";
+
+
+body{
+    font-family: $body-text;
+     
+}
+
+// custom scrollbar
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: $darkpurple;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 1rem;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #fff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: $darkpurple;
+    border: 3px solid #ffffff;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+
+
+@import "header";
+
+@import "content-area";

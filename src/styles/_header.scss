@@ -1,0 +1,47 @@
+
+
+header{
+    background: $darkpurple;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+ 
+        .logo{
+             img{
+                width:250px;
+            }
+        }
+        nav{
+      
+         a{
+            color: #fff;
+            text-decoration: none;
+            margin-right: 20px;
+            text-transform:  capitalize;
+            font-weight: 300;
+            font-size: .9rem;
+            &:hover{
+                color:$pink;
+                font-weight: 700;
+            }
+            &.register-btn{
+                background: $pink;
+                font-weight: 700;
+                padding: 7px 25px;
+                color: #fff;
+                border-radius: 5px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                -ms-border-radius: 5px;
+                -o-border-radius: 5px;
+                
+                &:hover{
+                    background-color: $darkpurple;
+                    border: 2px solid $pink
+                }
+}
+        }
+    }
+}
