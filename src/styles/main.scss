@@ -52,4 +52,11 @@ body{
 
 @import "header";
 
+
+#content-area{
+  width: 100%;
+  overflow: auto;
+  background: $darkpurple;
+}
+
 @import "content-area";
