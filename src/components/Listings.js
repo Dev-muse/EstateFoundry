@@ -30,27 +30,28 @@ export default class Listings extends Component {
                 <section className="listings-results">
                     <div className="listing">
                         <div className="listing-img">
-                            <div className="address">Address</div>
-                            <div className="details">
-                                <div class="user">
+                            <div className="address">7 Lavender drive</div>
+                            <div className="details">                             
+                                <div class="col-md-3">
                                     <div className="user-img"></div>
-                                    <div className="user-details">
-                                        <span className="user-name">George Groves </span>
-                                        <span className="user-date">05/10/2015</span>
-                                    
-                                    </div>
                                 </div>
-                                <div className="listing-details">
-
-                                    <div className="floor-space">
-                                    <i class="fas fa-vector-square"></i> <span>1000 ft&sup2;</span>
+                                <div class="col-md-9">
+                                    <div className="user-details">
+                                            <span className="user-name">George Groves </span>
+                                            <span className="user-date">05/10/2015</span>
                                     </div>
-
-                                    <div class="bedrooms">
-                                        <i class="fas fa-bed"></i><span> bedrooms</span> 
+                                    <div className="listing-details">
+                                        <div className="floor-space">
+                                        <i class="fas fa-vector-square"></i> <span>1000 ft&sup2;</span>
+                                        </div>
+                                        <div class="bedrooms">
+                                            <i class="fas fa-bed"></i>
+                                            <span> Bedrooms</span>
+                                        </div>
                                     </div>
-
-                                    
+                                    <div className="view-btn">
+                                        View Listing
+                                    </div>
                                 </div>
                             </div>
                         </div>
