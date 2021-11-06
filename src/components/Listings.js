@@ -28,40 +28,147 @@ export default class Listings extends Component {
                     </div>
                 </section>
                 <section className="listings-results">
-                    <div className="listing">
-                        <div className="listing-img">
-                            <div className="address">7 Lavender drive</div>
-                            <div className="details">                             
-                                <div class="col-md-3">
-                                    <div className="user-img"></div>
-                                </div>
-                                <div class="col-md-9">
-                                    <div className="user-details">
-                                            <span className="user-name">George Groves </span>
-                                            <span className="user-date">05/10/2015</span>
+                    
+                    <div class="col-md-3">
+                        <div className="listing">
+                            <div className="listing-img">
+                                <div className="address">7 Lavender drive</div>
+                                <div className="details">
+                                    <div class="col-md-3">
+                                        <div className="user-img"></div>
                                     </div>
-                                    <div className="listing-details">
-                                        <div className="floor-space">
-                                        <i class="fas fa-vector-square"></i> <span>1000 ft&sup2;</span>
+                                    <div class="col-md-9">
+                                        <div className="user-details">
+                                                <span className="user-name">George Groves </span>
+                                                <span className="user-date">05/10/2015</span>
                                         </div>
-                                        <div class="bedrooms">
-                                            <i class="fas fa-bed"></i>
-                                            <span> Bedrooms</span>
+                                        <div className="listing-details">
+                                            <div className="floor-space">
+                                            <i class="fas fa-vector-square"></i> <span>1000 ft&sup2;</span>
+                                            </div>
+                                            <div class="bedrooms">
+                                                <i class="fas fa-bed"></i>
+                                                <span> Bedrooms</span>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div className="view-btn">
-                                        View Listing
+                                        <div className="view-btn">
+                                            View Listing
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="bottom-info">
-
-                            <span>$1200 / month</span>
-                            <span><i class="fas fa-map-marker-alt"></i> Woodcrest, OH</span>
+                            <div className="bottom-info">
+                                <span className="price">$1200 / month</span>
+                                <span className="location"><i class="fas fa-map-marker-alt"></i> Woodcrest, OH</span>
+                            </div>
                         </div>
                     </div>
+                    <div class="col-md-3">
+                        <div className="listing">
+                            <div className="listing-img">
+                                <div className="address">7 Lavender drive</div>
+                                <div className="details">
+                                    <div class="col-md-3">
+                                        <div className="user-img"></div>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div className="user-details">
+                                                <span className="user-name">George Groves </span>
+                                                <span className="user-date">05/10/2015</span>
+                                        </div>
+                                        <div className="listing-details">
+                                            <div className="floor-space">
+                                            <i class="fas fa-vector-square"></i> <span>1000 ft&sup2;</span>
+                                            </div>
+                                            <div class="bedrooms">
+                                                <i class="fas fa-bed"></i>
+                                                <span> Bedrooms</span>
+                                            </div>
+                                        </div>
+                                        <div className="view-btn">
+                                            View Listing
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="bottom-info">
+                                <span className="price">$1200 / month</span>
+                                <span className="location"><i class="fas fa-map-marker-alt"></i> Woodcrest, OH</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div className="listing">
+                            <div className="listing-img">
+                                <div className="address">7 Lavender drive</div>
+                                <div className="details">
+                                    <div class="col-md-3">
+                                        <div className="user-img"></div>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div className="user-details">
+                                                <span className="user-name">George Groves </span>
+                                                <span className="user-date">05/10/2015</span>
+                                        </div>
+                                        <div className="listing-details">
+                                            <div className="floor-space">
+                                            <i class="fas fa-vector-square"></i> <span>1000 ft&sup2;</span>
+                                            </div>
+                                            <div class="bedrooms">
+                                                <i class="fas fa-bed"></i>
+                                                <span> Bedrooms</span>
+                                            </div>
+                                        </div>
+                                        <div className="view-btn">
+                                            View Listing
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="bottom-info">
+                                <span className="price">$1200 / month</span>
+                                <span className="location"><i class="fas fa-map-marker-alt"></i> Woodcrest, OH</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div className="listing">
+                            <div className="listing-img">
+                                <div className="address">7 Lavender drive</div>
+                                <div className="details">
+                                    <div class="col-md-3">
+                                        <div className="user-img"></div>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div className="user-details">
+                                                <span className="user-name">George Groves </span>
+                                                <span className="user-date">05/10/2015</span>
+                                        </div>
+                                        <div className="listing-details">
+                                            <div className="floor-space">
+                                            <i class="fas fa-vector-square"></i> <span>1000 ft&sup2;</span>
+                                            </div>
+                                            <div class="bedrooms">
+                                                <i class="fas fa-bed"></i>
+                                                <span> Bedrooms</span>
+                                            </div>
+                                        </div>
+                                        <div className="view-btn">
+                                            View Listing
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="bottom-info">
+                                <span className="price">$1200 / month</span>
+                                <span className="location"><i class="fas fa-map-marker-alt"></i> Woodcrest, OH</span>
+                            </div>
+                        </div>
+                    </div>
+                   
+        
                 </section>
+                
                 <section className="pagination">
 
                     <ul className="pagination-nums">
